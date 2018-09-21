@@ -1,0 +1,10 @@
+<span>{{title}}</span>
+<div class="card">
+  <div class="card-content">
+    <ul>
+      <li *ngFor="let filter of filters">
+        <app-filter [filter]="filter"></app-filter>
+      </li>
+    </ul>
+  </div>
+</div>
